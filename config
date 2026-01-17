@@ -5,9 +5,9 @@ theme = Dracula+
 
 # === 背景設定 ===
 # 背景透過率(0-1)
-background-opacity = 0.5
+background-opacity = 0.7
 # 背景ぼかし
-background-blur = 40
+background-blur = 50
 
 # === ウィンドウ設定 ===
 # ウィンドウのX軸Padding
