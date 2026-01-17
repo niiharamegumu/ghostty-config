@@ -1,0 +1,44 @@
+# Opion Reference: https://ghostty.org/docs/config/reference
+# === テーマ設定 ===
+# ghostty +list-themes内のテーマ
+theme = Dracula+
+
+# === 背景設定 ===
+# 背景透過率(0-1)
+background-opacity = 0.6
+# 背景ぼかし
+background-blur = 15
+
+# === ウィンドウ設定 ===
+# ウィンドウのX軸Padding
+window-padding-x = 10
+# ウィンドウのY軸Padding
+window-padding-y = 10
+# ウィンドウサイズに合わせてPaddingを再調整する
+window-padding-balance = true
+# ウィンドウを最大化状態で起動するかどうか
+maximize = true
+
+# === フォント ===
+# フォントサイズ
+font-size = 12
+
+# === 操作設定 ===
+# 選択しただけでクリップボードにコピー
+copy-on-select = true
+# クリップボードの読み書きを許可
+clipboard-read = allow
+clipboard-write = allow
+# クリップボードにコピーされるデータの末尾の空白を削除
+clipboard-trim-trailing-spaces = true
+
+# Keybind Reference: https://ghostty.org/docs/config/keybind/reference
+# === キーバインド設定 ===
+# Cmd + 矢印キー で分割した画面を「移動」
+keybind = cmd+left=goto_split:left
+keybind = cmd+right=goto_split:right
+keybind = cmd+up=goto_split:top
+keybind = cmd+down=goto_split:bottom
+# タブ移動 Cmd + Option + 左右
+keybind = cmd+opt+left=previous_tab
+keybind = cmd+opt+right=next_tab
